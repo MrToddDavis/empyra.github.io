@@ -23,10 +23,19 @@ body {
 a.footer:link {color:#ffffff;}
 a.one:visited {color:#ffffff;}
 a.one:hover {color:#dddddd;}
+.button {
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+.button:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+}
 -->
 </style>
 </head>
 <body>
+<img src="https://mrtodddavis.github.io/Empyra_logo1.png" width="223" height="100" align="center">
 <nav class="navbar navbar-inverse" style="margin-bottom: -10px;">
   <div class="container-fluid">
     <div class="navbar-header">
@@ -35,7 +44,7 @@ a.one:hover {color:#dddddd;}
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-      <a class="navbar-brand" href="https://mrtodddavis.github.io/"><img src="https://mrtodddavis.github.io/empyra-white.png" width="73" height="30"></a>
+      <a class="navbar-brand" href="https://mrtodddavis.github.io/"><img src="https://mrtodddavis.github.io/e-icon.png" width="30" height="30"></a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
@@ -49,8 +58,8 @@ a.one:hover {color:#dddddd;}
           </ul>
         </li>
         <li><a href="#">About Us</a></li>
-        <li><a href="#">Connect</a></li>
       </ul>
+      <button class="btn btn-danger navbar-btn">Contact</button>
       <form class="navbar-form navbar-right">
       <div class="input-group">
         <input type="text" class="form-control" placeholder="Search">
