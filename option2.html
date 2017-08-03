@@ -17,17 +17,29 @@
 body {
 	color: #333333;
 	font-family: "helvetica, helvetica neue, verdana, sans-serif";
-	background-color: #f2f2f2;
+	background-color: #eeeeee;
 }
 .footer {color:#ffffff;}
 a.footer:link {color:#ffffff;}
 a.one:visited {color:#ffffff;}
 a.one:hover {color:#dddddd;}
+.navbar-btn {
+    background-color: #023fc8;
+    border: #023fc8;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+.navbar-btn:hover {
+    background-color: #0450fe;
+    border: #023fc8;
+}
+.navbar {border-radius: 0;}
 -->
 </style>
 </head>
 <body>
-<nav class="navbar navbar-inverse" style="margin-bottom: -10px;">
+<div align="center"><img src="https://mrtodddavis.github.io/Empyra_logo1.png" width="200" height="90"></div>
+<nav class="navbar navbar-inverse" style="margin-bottom: 0px; margin-right: 0; margin-left: 0;">
   <div class="container-fluid">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -35,7 +47,7 @@ a.one:hover {color:#dddddd;}
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-      <a class="navbar-brand" href="https://mrtodddavis.github.io/"><img src="https://mrtodddavis.github.io/empyra-white.png" width="73" height="30"></a>
+      <a class="navbar-brand hidden-xs" href="https://mrtodddavis.github.io/"><img src="https://mrtodddavis.github.io/e-icon.png" width="25" height="25"></a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
@@ -49,8 +61,8 @@ a.one:hover {color:#dddddd;}
           </ul>
         </li>
         <li><a href="#">About Us</a></li>
-        <li><a href="#">Connect</a></li>
-      </ul>
+	      <button class="btn btn-danger navbar-btn">Contact Us</button>
+	    </ul>
       <form class="navbar-form navbar-right">
       <div class="input-group">
         <input type="text" class="form-control" placeholder="Search">
@@ -65,12 +77,12 @@ a.one:hover {color:#dddddd;}
   </div>
 </nav>
 
-<div class="container hidden-xs" style="position: absolute; z-index: 999999;">
-  <div class="row">
-    <div class="col-md-4"><img src="https://mrtodddavis.github.io/Empyra_logo1.png" width="223" height="100"></div>
-    <div class="col-md-8"><h2 style="color: #4d5265;" align="right"><i>20 years and still innovating...</i></h2></div>
-	</div>
-</div>
+<div class="container-fluid" style="padding: 10px 20px 10px 20px; background-color:#023fc8;">
+<div class="row">
+<div class="col-md-4 hidden-xs"><p class="footer"><a href="mailto:sales@empyraworks.com" class="footer">sales@empyraworks.com</a></p></div>
+<div class="col-md-4" align="center"><img src="https://mrtodddavis.github.io/facebook.png" width="25" height="25" style="margin-right: 25px;"> <img src="https://mrtodddavis.github.io/twitter.png" width="30" height="30" style="margin-right: 25px;"> <img src="https://mrtodddavis.github.io/linkedin.png" width="25" height="25" style="margin-right: 25px;"> <img src="https://mrtodddavis.github.io/gplus.png" width="25" height="25"></div>
+<div class="col-md-4 hidden-xs"><p align="right" class="footer">866-427-6808</p></div>
+</div></div>
 	
 <div width="100%" style="margin: -10px, 0, 0, 0;">
   <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -120,13 +132,28 @@ a.one:hover {color:#dddddd;}
   </div>
 </div>
 	
-<div class="container" style="padding: 10px;">
-<div class="col-md-12"><p align="justify">We are a global software product and services company. With more than 20 years of experience, we have gained expertise in solving business issues leveraging our IT knowledge and skilled teams. We strive to understand our customers and their pain points to provide right and cost effective solutions.</p></div></div>
+<div class="container">
+<div class="row">
+<div class="col-md-6" style="padding: 10px; background-color: #ffffff;"><h3>20 years and still innovating...</h3>
+<p align="justify">We are a global software product and services company. With more than 20 years of experience, we have gained expertise in solving business issues leveraging our IT knowledge and skilled teams. We strive to understand our customers and their pain points to provide right and cost effective solutions.</p>
+<p align="justify">Our mission is to become a trusted business partner in public sector, high education and corporate consulting. We are driven to transform case management and career services management through our innovative platforms.</p></div>
+<div class="col-md-6" style="padding: 10px; background-color: #b5ccfe;"><h3>Industries We Serve</h3>
+	<ul><li>Public Sector</li>
+	<li>Higher Education</li>
+	<li>Financial Sector</li>
+	<li>IT & Consulting</li>
+	<li>Healthcare</li>
+	<li>Manufacturing</li></ul></div>
+</div></div>
+	
+<div style="width: 100%; padding: 10px; background-color:#023fc8; margin-right: 0; margin-left: 0;">
+<p align="center" class="footer">Contact Us: <a href="mailto:sales@empyraworks.com" class="footer">sales@empyraworks.com</a> | 866-427-6808</p></div>
 
-<div style="width: 100%; padding: 10px; background-color:#333333;">
-<p align="center" class="footer"><a href="https://mrtodddavis.github.io/" class="footer">Home</a> | <a href="https://mrtodddavis.github.io/" class="footer">Case Management</a> | <a href="https://mrtodddavis.github.io/" class="footer">Data Management</a> | <a href="https://mrtodddavis.github.io/" class="footer">Consulting</a> | <a href="https://mrtodddavis.github.io/" class="footer">About Us</a> | <a href="https://mrtodddavis.github.io/" class="footer">Connect</a></p>
-<p align="center" class="footer"><a href="privacypolicy.pdf" class="footer">Privacy Policy</a> | <a href="legaldisclaimer.pdf" class="footer">Legal Disclaimer</a></p>
-<p align="center" style="color: #ffffff;">2017 © Empyra.com, Inc. All Rights Reserved.</p></div>
+<div style="width: 100%; padding: 10px; background-color:#333333; margin-right: 0; margin-left: 0;">
+<p align="center" class="footer"><a href="https://mrtodddavis.github.io/" class="footer">Home</a> | <a href="https://mrtodddavis.github.io/" class="footer">Case Management</a> | <a href="https://mrtodddavis.github.io/" class="footer">Data Management</a> | <a href="https://mrtodddavis.github.io/" class="footer">Consulting</a> | <a href="https://mrtodddavis.github.io/" class="footer">About Us</a> | <a href="https://mrtodddavis.github.io/" class="footer">Contact</a> | <a href="https://mrtodddavis.github.io/" class="footer">Site Map</a></p>
+<p align="center" class="footer"><a href="privacypolicy.pdf">Privacy Policy</a> &nbsp; &nbsp; <a href="legaldisclaimer.pdf">Legal Disclaimer</a></p></div
+
+<div style="width: 100%; padding-top: 20px; margin-right: 0; margin-left: 0;"><p align="center">2017 Â© Empyra.com, Inc. All Rights Reserved</p></div>
 	
 </body>
 </html>
