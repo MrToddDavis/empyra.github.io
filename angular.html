@@ -27,5 +27,21 @@ div {
 <h1>Hide the DIV: <input type="checkbox" ng-model="myCheck"></h1>
 
 <div ng-hide="myCheck">Information you want to hide.</div>
+  
+ 
+<script>
+var app = angular.module("myShoppingList", []);
+app.controller("myCtrl", function($scope) {
+    $scope.products = ["Milk", "Bread", "Eggs"];
+});
+</script>
+
+<div ng-app="myShoppingList" ng-controller="myCtrl">
+    <ul>
+        <li ng-repeat="x in products">{{x}}</li>
+    </ul>
+</div>
+
+  
 </body>
 </html>
