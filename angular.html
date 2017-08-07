@@ -1,21 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <style>
-div {
-  transition: all linear 0.5s;
-  background-color: white;
-  height: 100px;
-  width: 100%;
-  position: relative;
-  top: 0;
-  left: 0;
-}
-.ng-hide {
-  height: 0;
-  width: 0;
-  background-color: transparent;
-  left:-200px;
-}
 
 </style>
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
@@ -24,11 +9,6 @@ div {
 <body ng-app="ngAnimate">
  <div ng-include="'header.html'"></div>
 
-<h1>Hide the DIV: <input type="checkbox" ng-model="myCheck"></h1>
-
-<div ng-hide="myCheck">Information you want to hide.</div>
-  
- 
 <script>
 var app = angular.module("myShoppingList", []);
 app.controller("myCtrl", function($scope) {
